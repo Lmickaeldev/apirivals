@@ -2,7 +2,7 @@ let membersData = []; // Variable pour stocker les membres récupérés
 
 async function fetchData() {
   try {
-    const response = await fetch("http://localhost:3000/proxy");
+    const response = await fetch("https://rustoria.co/twitch/api/teams/krolay");
     if (!response.ok) {
       throw new Error(`Erreur HTTP : ${response.status}`);
     }
