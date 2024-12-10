@@ -1,0 +1,43 @@
+table {
+    width: 200px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(145, 70, 255);
+    color: white;
+    background-color: rgb(7, 4, 11);
+    font-weight: bold;
+}
+
+th,
+td {
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+    padding: 8px;
+    text-align: left;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    padding: 8px;
+    width: 200px;
+}
+
+.input-container button {
+    padding: 8px;
+    margin-left: 10px;
+}
+p{
+    /* background-color: rgb(145, 70, 255); */
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
